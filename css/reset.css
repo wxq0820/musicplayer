@@ -1,0 +1,20 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+
+}
+html,.player-footer {
+    min-width: 900px;
+}
+html,body,.cover{
+    height: 100%;
+
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}

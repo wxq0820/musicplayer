@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>musicPlayer</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js"></script>
+</head>
+<body>
+<div class="main">
+    <div class="cover"></div>
+    <div class="contain clearfix">
+        <div class="music-list">
+            <i class="player_songlist__line"></i>
+            <ul class="list-row">
+                <li class="song-row-list">
+                    <ul>
+                        <li><i class="fa fa-square-o"></i></li>
+                        <li>歌曲</li>
+                        <li>歌手</li>
+                        <li>类型</li>
+                    </ul>
+                    <i class="player_songlist__line"></i>
+                </li>
+            </ul>
+        </div>
+        <div class="music-info">
+            <img class="image" src="https://y.gtimg.cn/music/photo_new/T002R300x300M000003k7MNz4TvVMk.jpg?max_age=2592000" alt="#">
+            <div>歌曲名：<a class="song" href="#">来自天堂的魔鬼</a></div>
+            <div>歌手名：<a class="singer" href="#">G.E.M. 邓紫棋</a></div>
+        </div>
+    </div>
+    <div class="player-footer clearfix">
+        <div class="player">
+            <div class="bar">
+                <div class="total"></div>
+                <div class="progress"></div>
+            </div>
+            <ul class="music-play-info">
+                <li class="music-info-small">
+                    <img class="image" src="https://y.gtimg.cn/music/photo_new/T002R300x300M000003k7MNz4TvVMk.jpg?max_age=2592000" alt="#">
+                    <span class="song-info">来自天堂的魔鬼-G.E.M. 邓紫棋</span>
+                </li>
+                <li class="play-ctr">
+                    <div class="ctr-btn">
+                        <span class="back"><i class="fa fa-step-backward"></i></span>
+                        <span class="play"><i class="fa fa-pause"></i></span>
+                        <span class="forward"><i class="fa fa-step-forward"></i></span>
+                    </div>
+                </li>
+                <li class="time">00:00/04:05</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

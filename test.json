@@ -1,0 +1,22 @@
+[{
+    "src" : "./music/Winky诗 - 松烟入墨.mp3",
+    "song" : "松烟入墨",
+    "singer" : "Winky诗",
+    "type" : "古风",
+    "img" : "https://y.gtimg.cn/music/photo_new/T002R300x300M000001bPtDo3Qidts.jpg?max_age=2592000"
+  },
+  {
+    "src" : "./music/兰芽yaya _ 慕斯の小乖 - 缠心莲.mp3",
+    "song" : "缠心莲",
+    "singer" : "兰芽yaya _ 慕斯の小乖",
+    "type" : "古风",
+    "img" : "https://y.gtimg.cn/music/photo_new/T002R300x300M000002Sy0OD0YpZVF.jpg?max_age=2592000"
+  },
+  {
+    "src" : "./music/江夏沐川 - 枫桥调.mp3",
+    "song" : "枫桥调",
+    "singer" : "江夏沐川",
+    "type" : "古风",
+    "img" : "https://p.qpic.cn/music_cover/KaFn5hQACzzVeLFOc4hamAyIL8gMZzaVJdBu6uwyOABMLUz8ICc7wg/600?n=1"
+  }
+]

@@ -1,0 +1,116 @@
+.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background:url("https://y.gtimg.cn/music/photo_new/T002R300x300M000003k7MNz4TvVMk.jpg?max_age=2592000") center center no-repeat;
+    background-size: cover;
+    filter: blur(20px);
+    z-index: -1;
+}
+.contain {
+    width: 80%;
+    padding-top: 20px;
+}
+.music-list {
+    float: left;
+    width: 70%;
+}
+.music-info {
+    float: right;
+    width: 25%;
+    text-align: center;
+}
+.list-row li>ul::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.list-row li>ul li {
+    float: left;
+    margin: 0 0 0 5%;
+    line-height: 50px;
+}
+.list-row li li:nth-child(1) {
+    width: 2%;
+}
+.list-row li li:nth-child(2) {
+    width: 35%;
+}
+.list-row li li:nth-child(3) {
+    width: 33%;
+}
+.list-row li li:nth-child(4) {
+    width: 10%;
+}
+.fa {
+    font-size: 18px;
+}
+.music-info img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+.music-info div {
+    margin-bottom: 10px;
+}
+.player-footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.player {
+    width: 80%;
+    position: relative;
+}
+.music-info-small {
+    float: left;
+    position: relative;
+}
+.time {
+    position: absolute;
+    top : 65%;
+    right: 2%;
+}
+.play-ctr {
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+.music-info-small img {
+    width: 100px;
+    height: 100px;
+}
+.music-info-small span {
+    position: absolute;
+    top: 65%;
+    left: 110px;
+    width: 200px;
+    font-size: 14px;
+}
+.ctr-btn {
+    display: inline-block;
+    vertical-align: sub;
+    padding-top: 2%;
+}
+.play-ctr i {
+    margin:0 15px;
+    transform: scale(2);
+}
+.total {
+    position: absolute;
+    top: 20%;
+    left: 14%;
+    width: 80%;
+    border-top: 3px solid #eee;
+}
+.progress {
+    position: absolute;
+    top: 20%;
+    left: 14%;
+    width: 60%;
+    border-top: 3px solid palevioletred;
+}
+.bar {
+    width: 80%;
+}

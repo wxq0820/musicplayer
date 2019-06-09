@@ -1,0 +1,12 @@
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.player_songlist__line {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    opacity: .2;
+}
